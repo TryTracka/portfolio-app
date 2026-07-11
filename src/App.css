@@ -2,6 +2,9 @@
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: 32px 0 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .hero-panel,
@@ -13,7 +16,6 @@
 
 .hero-panel {
   align-items: stretch;
-  margin-bottom: 24px;
 }
 
 .hero-copy,
@@ -243,10 +245,6 @@
   border-left: 3px solid var(--orange);
   background: rgba(249, 115, 22, 0.08);
   border-radius: 0 14px 14px 0;
-}
-
-.chat-section {
-  margin-top: 24px;
 }
 
 .terminal-card {
@@ -546,6 +544,7 @@
     width: min(100% - 20px, 1180px);
     padding-top: 20px;
     padding-bottom: 48px;
+    gap: 18px;
   }
 
   .hero-copy,
